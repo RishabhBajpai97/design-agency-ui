@@ -1,0 +1,30 @@
+.clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(112, 111, 229, 0.1);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+}
+
+.clients-text {
+    color: #1E1F4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+img {
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5rem;
+    padding-right: 80px;
+}
+
+.content {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1E1F4B;
+    display: flex;
+    flex-direction: column;
+}
+
+.content>div {
+    margin-bottom: 20px;
+}
+
+.product-box {
+    border: 8px solid #706FE5;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #706FE5;
+}
+
+.images {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #706FE5;
+}
+
+.regular-content {
+    font-size: 20px;
+    font-weight: normal;
+    width: 49%;
+}
+
+button {
+    background-color: #706FE5;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.intro-video {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-left: 30px;
+}
+.intro-video img{
+    margin-bottom: 0px;
+}
+
+.intro-content {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+}

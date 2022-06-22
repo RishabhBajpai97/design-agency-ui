@@ -1,0 +1,58 @@
+.project_container{
+padding-top: 40px;
+padding-left: 100px;
+padding-bottom: 50px;
+}
+.title,.subheading{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1E1F4B;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: normal;
+}
+.projects{
+    margin-top: 50px;
+    display: flex;
+  justify-content: space-evenly;
+}
+img{
+    padding: 0;
+    border-radius: 20px;
+}
+.project_date,.project_body{
+    font-family: "Poppins",sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.project_body{
+    width: 70%;
+}
+.project_title{
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: #1E1F4B;
+        padding-top: 20px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    margin-right: 80px;
+}
+.second,.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    width: 70%;
+}
+.third{
+    gap: 30px;
+}

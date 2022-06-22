@@ -1,0 +1,82 @@
+.help-container {
+    width: 78%;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.first-section-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #1B1D21;
+    font-weight: bold;
+}
+
+.first-section-body {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    width: 80%;
+    font-weight: normal;
+}
+
+.first-section-input {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.subscribe-button .btn {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.input-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.help-container img {
+    margin-bottom: 10px;
+}
+
+.first-section-input img {
+    margin: 0px;
+}
+
+.help-second-section,
+.help-third-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #1B1D21;
+    font-weight: 600;
+}
+
+.section-body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #1B1D21;
+    font-weight: normal;
+}

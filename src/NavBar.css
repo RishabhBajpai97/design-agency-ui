@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pattern {
+   position: absolute;
+   top: 39px;
+   left: 312px;
+
+}
+.pattern img{
+    margin-bottom: 0px;
+}
+
+.logo>div::after {
+    content: "";
+    position: absolute;
+    transform: translateY(20px);
+    width: 6px;
+    height: 6px;
+    background-color: #706FE5;
+    border-radius: 50%;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-list li {
+    font-size: 16px;
+    padding: 32px;
+}
+.menu-list li:hover {
+    font-size: 16px;
+    padding: 32px;
+    cursor: pointer;
+}
